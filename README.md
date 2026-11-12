@@ -36,7 +36,7 @@ The program performs the following operations:
 Import the required libraries: OpenCV, NumPy, and Matplotlib.
 
 ### Step 2:
-Read the image `parrot.jpg` in grayscale format.
+Read the image `Qno. 1.jpg` in grayscale format.
 
 ### Step 3:
 Display the grayscale image and plot its histogram.
@@ -74,10 +74,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read grayscale image
-img = cv2.imread('mountain.png', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('Qno. 1.png', cv2.IMREAD_GRAYSCALE)
 
 if img is None:
-    print("Image not found. Please upload parrot.png")
+    print("Image not found. Please upload Qno. 1.png")
 else:
     plt.imshow(img, cmap='gray')
     plt.title('Original Grayscale Image')
@@ -100,7 +100,7 @@ plt.title('Histogram Equalized Grayscale Image')
 plt.axis('off')
 plt.show()
 # Read original color image
-img_color = cv2.imread('mountain.png', cv2.IMREAD_COLOR)
+img_color = cv2.imread('Qno. 1.png', cv2.IMREAD_COLOR)
 
 # Convert BGR to HSV
 img_hsv = cv2.cvtColor(img_color, cv2.COLOR_BGR2HSV)
@@ -162,24 +162,32 @@ plt.show()
 ```
 
 ### Developed By:
-**Name:** VASUNTHARA SAI S 
+**Name:** MIDHUN S
 
-### Register No: 212224230297
+### Register No: 212224230158
 
 ---
 
 ##  Output
-<img width="515" height="383" alt="download" src="https://github.com/user-attachments/assets/e5aa2cce-7315-475e-84c5-3919ddd47d7f" />
+<img width="657" height="387" alt="image" src="https://github.com/user-attachments/assets/adca6a72-af7e-4fb0-ae61-6637f56e2bef" />
 
-<img width="590" height="454" alt="download" src="https://github.com/user-attachments/assets/5557fce2-d4ca-4bb6-9ed7-0775e8522f20" />
+<img width="665" height="495" alt="image" src="https://github.com/user-attachments/assets/80dc6300-f16b-49fc-abb9-af00afdf92ea" />
 
-<img width="590" height="454" alt="download" src="https://github.com/user-attachments/assets/6f99ba12-6759-4a8e-a3f8-11fe5600f2ed" />
+<img width="676" height="517" alt="image" src="https://github.com/user-attachments/assets/e9789b45-0f10-4298-92c9-8e45c4717aec" />
 
-<img width="515" height="383" alt="download" src="https://github.com/user-attachments/assets/b1b39e09-c4c8-4a32-ba8c-eb7488a1930a" />
+<img width="650" height="397" alt="image" src="https://github.com/user-attachments/assets/f2fbad8f-b6aa-477f-a26b-bd66ea507813" />
 
-<img width="950" height="332" alt="download" src="https://github.com/user-attachments/assets/45347ce3-a895-442e-b66a-03fad15afc24" />
+<img width="650" height="375" alt="image" src="https://github.com/user-attachments/assets/ff160f2a-d418-4b72-8661-fa71c332596b" />
 
-<img width="1189" height="951" alt="download" src="https://github.com/user-attachments/assets/db4ec4a8-dc9c-4cb4-ab66-5c41d3d38ded" />
+<img width="655" height="480" alt="image" src="https://github.com/user-attachments/assets/94a30bc4-0d1a-4f58-ade8-7e1f127928ef" />
+
+<img width="1222" height="342" alt="image" src="https://github.com/user-attachments/assets/989b0cf9-b456-4de0-9ac9-e0ef861777c5" />
+
+<img width="1240" height="391" alt="image" src="https://github.com/user-attachments/assets/a79bb0e7-593e-411d-b1ae-3092d09d22fd" />
+
+
+
+
 
 ### Grayscale Histogram Equalization
 
